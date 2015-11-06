@@ -1,0 +1,204 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+#menu {
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+	font-size: 30px;
+}
+
+button.upgradeClick {
+	margin-left: 400px;
+}
+
+.logo {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#menu button, #menu .scoreLabel, #menu .score {
+	float: right;
+}
+
+#start {
+	position: absolute;
+	left: 620px;
+	top: 300px;
+	cursor: pointer;
+}
+
+button.button, button.clickUpgrade {
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	margin-right: 100px;
+	margin-top: -8px;
+	font-size: 17px;
+	position: absolute;
+	left: 1100px;
+	border-radius: 5px;
+	border: 1px solid lime;
+	cursor: pointer;
+}
+
+button.clickUpgrade {
+	left: 800px;
+}
+
+button.button:hover {
+	background-color: #3ABA3A;
+}
+
+.score {
+	position: absolute;
+	left: 1315px;
+}
+
+.scoreLabel {
+	position: absolute;
+	left: 1220px;
+}
+
+#game {
+	background: url('../images/land.jpg') no-repeat center center fixed;
+	height: 668px;
+}
+
+#game img {
+	height: 200px;
+}
+
+#smoke1 {
+	position: fixed;
+	left: 300px;
+	top: 280px;
+
+}
+
+
+#house1 {
+	position: fixed;
+	left: 200px;
+	top: 300px;
+}
+
+#smoke2 {
+	position: fixed;
+	left: 500px;
+	top: 340px;
+
+}
+
+#house2 {
+	position: fixed;
+	left: 400px;
+	top: 360px;
+}
+
+#house3 {
+	position: fixed;
+	left: 600px;
+	top: 300px;
+}
+
+#house4 {
+	position: fixed;
+	left: 810px;
+	top: 360px;
+}
+
+#house5 {
+	position: fixed;
+	left: 1000px;
+	top: 300px;
+}
+
+#car1 img, #car2 img, #car3 img, #car4 img, #car5 img {
+	height: 40px;
+}
+
+#car1 {
+	position: fixed;
+	left: 230px;
+	top: 500px;
+}
+
+#car2 {
+	position: fixed;
+	left: 430px;
+	top: 560px;
+}
+
+#car3 {
+	position: fixed;
+	left: 630px;
+	top: 500px;
+}
+
+#car4 {
+	position: fixed;
+	left: 830px;
+	top: 560px;
+}
+
+#car5 {
+	position: fixed;
+	left: 1030px;
+	top: 500px;
+}
+
+#windmill1 {
+	position: fixed;
+	left: 300px;
+	top: 239px;
+}
+
+#windmill2 {
+	position: fixed;
+	left: 550px;
+	top: 241px;
+}
+
+#windmill3 {
+	position: fixed;
+	left: 800px;
+	top: 280px;
+}
+
+
+#windmill4 {
+	position: fixed;
+	left: 1000px;
+	top: 249px;
+}
+
+#windmill5 {
+	position: fixed;
+	left: 1200px;
+	top: 249px;
+}
+
+#sun img{
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+
+#backdrop img{
+	width: 1450px;
+	height: 660px;
+	margin-left: -12px;
+	margin-top: -2px;
+
+}
+
+#cloud {
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+
